@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="path/to/your/style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Animation</title>
+    <!-- Load jQuery and Counter-Up Plugin -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+    <meta charset="utf-8">
+    <title>RTV Lebanon</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Header Start -->
+        <!-- Header Start -->
+        <div class="container-fluid bg-dark px-0">
+            <div class="row gx-0">
+                <div class="col-lg-3 bg-dark d-none d-lg-block">
+                    <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                        <img src="img/rtv.png" alt="RTV Logo" class="header-logo">
+                        
+                    </a>
+                </div>
+                <div class="col-lg-9">
+                    <div class="row gx-0 bg-white d-none d-lg-flex">
+                        <div class="col-lg-7 px-5 text-start">
+                            <div class="h-100 d-inline-flex align-items-center py-2 me-4">
+                                <i class="fa fa-envelope text-primary me-2"></i>
+                                <p class="mb-0">missinfo@rtv.com</p>
+                            </div>
+                            <div class="h-100 d-inline-flex align-items-center py-2">
+                                <i class="fa fa-phone-alt text-primary me-2"></i>
+                                <p class="mb-0">Budget Cut, No Call Center</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 px-5 text-end">
+                        
+            
+                        </div>
+                    </div>
+                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
+                        <a href="index.html" class="navbar-brand d-block d-lg-none">
+                             <img src="img/rtv.png" alt="RTV Logo" class="header-logo">
+                        </a>
+                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav mr-auto py-0">
+                                <a href="index.html" class="nav-item text-light nav-link active">Home</a>
+                                <a href="about.html" class="nav-item text-light nav-link active">About</a>
+                                <a href="politics.html" class="nav-item text-light nav-link active">Politics</a>
+                                <a href="business.html" class="nav-item text-light nav-link active">Business</a>
+                                <a href="contact.html" class="nav-item text-light nav-link active">Contact Us</a>
+                                
+                                <div class="nav-item dropdown">
+                                   
+                                    <div class="dropdown-menu rounded-0 m-0">
+                                       
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+        <!-- Page Header Start -->
+        <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/abt.png);">
+            <div class="container text-center pb-5" style="padding-top: 50px; background-color: rgba(0, 0, 0, 0.5);"> <!-- Added translucent background here -->
+                <h1 class="display-3 text-white mb-3 animated slideInDown">About Us</h1>
+            </div>
+        </div>
+        <!-- Page Header End -->
+        
+
+        <!-- About Start -->
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Animated Rooms</title>
+            <style>
+                /* Define keyframe animation */
+                @keyframes wildAnimation {
+                    0% {
+                        opacity: 0;
+                        transform: translateY(50px) scale(0.8);
+                    }
+                    50% {
+                        opacity: 1;
+                        transform: translateY(0) scale(1.2);
+                    }
+                    100% {
+                        opacity: 1;
+                        transform: translateY(0) scale(1);
+                    }
+                }
+
+                /* Apply animation to images on hover */
+                .lebanon-img:hover {
+                    animation: wildAnimation 1s ease-in-out;
+                }
+            </style>
+        </head>
+        <body>
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <h6 class="section-title text-start text-primary text-uppercase">About Us</h6>
+                        <h1 class="mb-4">Welcome to <span class="text-primary text-uppercase">Dbayeh</span></h1>
+                        <p class="mb-4">RTV is based in Dbayeh, a coastal town in Lebanon, famed for its "charming" blend of never-ending construction and the delightful sound of traffic. It's a must-visit for those who adore navigating through crowded shopping malls and enjoying the "exquisite" experience of packed beach resorts.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row g-3">
+                            <div class="col-6 text-end d-flex align-items-center">
+                                <a href="img/d1.png" target="_blank">
+                                    <img class="img-fluid rounded w-100 wow zoomIn lebanon-img" data-wow-delay="0.1s" src="img/leb4.jpg">
+                                </a>
+                            </div>
+                            <div class="col-6 text-start d-flex align-items-center">
+                                <a href="img/d2.png" target="_blank">
+                                    <img class="img-fluid rounded w-100 wow zoomIn lebanon-img" data-wow-delay="0.3s" src="img/leb6.webp">
+                                </a>
+                            </div>
+                            <div class="col-6 text-end d-flex align-items-center">
+                                <a href="img/d3.png" target="_blank">
+                                    <img class="img-fluid rounded w-100 wow zoomIn lebanon-img" data-wow-delay="0.5s" src="img/lebabon1.jpg">
+                                </a>
+                            </div>
+                            <div class="col-6 text-start d-flex align-items-center">
+                                <a href="img/d4.png" target="_blank">
+                                    <img class="img-fluid rounded w-100 wow zoomIn lebanon-img" data-wow-delay="0.7s" src="img/lebbeach.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </body>
+        </html>
+
+        <!-- About End -->
+
+ <!-- Newsletter Start -->
+ <div class="container newsletter mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="bg-transparent rounded text-center p-5">
+                <!-- Your content here -->
+            </div>
+        </div>
+    </div>
+</div>
+        
+ <!-- About Start -->
+ <div class="container-fluid about  py-5">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-xl-5">
+                <div class="h-100">
+                    <img src="img/about-1.jpg" class="img-fluid w-100 h-100" alt="Image">
+                </div>
+            </div>
+            <div class="col-xl-7">
+                <h6 class="section-title text-start text-primary text-uppercase">What We Do</h6>
+                <h1 class="mb-4">Get to Know  <span class="text-primary text-uppercase">Us</span></h1>
+                <p class="mb-4">
+                    RTV delivers satirical news with a Lebanese twist, prioritizing genuine viewer connections over commercial interests.
+                    </p>
+            
+                <div class="tab-class p-4 --dark">
+                    <ul class="nav d-flex mb-2">
+                        <li class="nav-item mb-3">
+                            <a class="d-flex py-2 text-center bg-white active" data-bs-toggle="pill" href="#tab-1">
+                                <span class="text-dark hover-effect" style="width: 150px;">About</span>
+                            </a>
+                        </li>
+                        <li class="nav-item mb-3">
+                            <a class="d-flex py-2 mx-3 text-center bg-white" data-bs-toggle="pill" href="#tab-2">
+                                <span class="text-dark hover-effect" style="width: 150px;">Mission</span>
+                            </a>
+                        </li>
+                        <li class="nav-item mb-3">
+                            <a class="d-flex py-2 text-center bg-white" data-bs-toggle="pill" href="#tab-3">
+                                <span class="text-dark hover-effect" style="width: 150px;">Vision</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex">
+                                        <div class="text-start my-auto">
+                                            <h5 class="text-uppercase mb-3" style="color: white;">Impact Through Information</h5>
+                                            <p class="mb-4" style="color: white;">At RTV, truth comes before profit. We are committed to providing our audience with news that they can trust, no matter the situation. Our dedication to factual accuracy and unbiased reporting sets us apart, ensuring that we deliver the real story, every time, regardless of financial offers or external pressures. This makes us a standout choice for discerning viewers who value integrity in journalism.
+                                            </p>
+                                            <div class="d-flex align-items-center justify-content-start">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex">
+                                        <div class="text-start my-auto">
+                                            <h5 class="text-uppercase mb-3" style="color: white;">Fighting Poverty in Lebanon</h5>
+                                            <p class="mb-4" style="color: white;"> Our mission is clear and ambitious – to utilize the profits from RTV to combat and ultimately cure poverty in Lebanon. We believe in the power of media to not just report on the world but to change it. By allocating our financial resources towards development projects and direct aid, we are working to create a sustainable impact that not only alleviates immediate needs but also fosters long-term growth and prosperity in our communities.
+                                            </p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex">
+                                        <div class="text-start my-auto">
+                                            <h5 class="text-uppercase mb-3" style="color: white;">What We Seek</h5>
+                                            <p class="mb-4" style="color: white;">Our vision at RTV is to transform how news is perceived and used. By reporting on pressing local and global issues, we aim to not only inform but also inspire our audience to take action. The revenue generated from our operations is directed towards funding charitable causes, particularly those featured in our stories. This approach turns each piece of news into a step towards societal improvement, making every story count towards a greater good.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+ <!-- Newsletter Start -->
+ <div class="container newsletter mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="bg-transparent rounded text-center p-5">
+                <!-- Your content here -->
+            </div>
+        </div>
+    </div>
+</div>
+        
+<!-- Team Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title text-center text-primary text-uppercase">Credibility</h6>
+            <h1 class="mb-5">Non Biased <span class="text-primary text-uppercase">News Channel</span></h1>
+            <p class="image-description">At RTV, we are honored to proclaim our status as the foremost impartial news channel in the Middle East—a testament to our enduring ethos of balanced reporting. 
+                This commitment is mirrored in Lebanon's unique heritage, a nation united under a singular religious and political identity spanning from 1861 to 2024, reflecting our shared vision of 
+                harmony and solidarity.
+            </p>
+
+        </div>
+        <img src="img/MAP.png" alt="RTV Logo" class="centered-image">
+        
+    </div>
+</div>
+  
+<!-- Team End -->
+
+ <!-- Newsletter Start -->
+ <div class="container newsletter mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="bg-transparent rounded text-center p-5">
+                <!-- Your content here -->
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- Donation Start -->
+        <div class="container-fluid donation py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5" style="max-width: 800px;">
+                    <h6 class="section-title text-center text-primary text-uppercase">Imopact Of the Week</h6>
+                    <h1 class="mb-5">GreenLeb <span class="text-primary text-uppercase">Movement</span></h1>
+                    <p class="image-description">Thanks to the environmental commitment of Lebanese civilians, the GreenLeb Movement has raised over $700,000 to combat pollution across Lebanon. These funds have enabled us to significantly reduce pollution by more than 60% in key areas, focusing on rivers, seas, and land. Through cleaning operations and educational initiatives, we are not only revitalizing Lebanon’s natural landscapes but also empowering communities to sustain these efforts for future generations. Join us as we continue to restore and preserve the beauty of our environment.
+
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div class="donation-item">
+                            <img src="img/donation-1.jpg" class="img-fluid w-100" alt="Image">
+                            <div class="donation-content d-flex flex-column">
+                                <h5 class="text-uppercase text-primary mb-4" style="color: white;">Preserving Diversity</h5>
+                                <a href="#" class="btn-hover-color display-6 text-white" style="color: white;">Combating Plastic Pollution</a>
+                                <h4 class="text-white mb-4">Protect Environments</h4>
+                                <p class="text-white mb-4">Our initiatives have successfully rescued over 500 bird species from the dangers of plastic intoxication, ensuring their survival and the health of their habitats.</p>
+                                <div class="donation-btn d-flex align-items-center justify-content-start">
+                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="img/error page.gif">Learn More</a>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="donation-item">
+                            <img src="img/service-2.jpg" class="img-fluid w-100" alt="Image">
+                            <div class="donation-content d-flex flex-column">
+                                <h5 class="text-uppercase text-primary mb-4" style="color: white;">Protecting Aquatic Reptiles</h5>
+                                <a href="#" class="btn-hover-color display-6 text-white" style="color: white;">Cleaning Can Pollution</a>
+                                <h4 class="text-white mb-4">Protect Environments</h4>
+                                <p class="text-white mb-4">In our river cleanup efforts, we have prevented five different snake species from becoming endangered by removing harmful can pollution from their aquatic environments.
+                                </p>
+                                <div class="donation-btn d-flex align-items-center justify-content-start">
+                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="img/error page.gif">Learn More</a>                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="donation-item">
+                            <img src="img/donation-3.jpg" class="img-fluid w-100" alt="Image">
+                            <div class="donation-content d-flex flex-column">
+                                <h5 class="text-uppercase text-primary mb-4" style="color: white;">Saving Marine Life</h5>
+                                <a href="#" class="btn-hover-color display-6 text-white" style="color: white;">Reducing Plastic Waste</a>
+                                <h4 class="text-white mb-4">Protect Environments</h4>
+                                <p class="text-white mb-4">Our sea water campaigns have liberated over 3,000 sea turtles from life-threatening entanglements with plastic bags and straws, contributing significantly to marine conservation.
+                                </p>
+                                <div class="donation-btn d-flex align-items-center justify-content-start">
+                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="img/error page.gif">Learn More</a>                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex align-items-center justify-content-center">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Donation End -->
+         <!-- Newsletter Start -->
+         <div class="container newsletter mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="bg-transparent rounded text-center p-5">
+                        <!-- Your content here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!-- Counter Start -->
+         <div class="container-counter py-5" style="background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url(img/volunteers-bg.jpg) center center; background-size: cover;">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5" style="max-width: 800px;">
+                    <h6 class="section-title text-center text-primary text-uppercase" style="color: white;">Achievements</h6>
+                    <h1 class="mb-5" style="color: white;">Our Local <span class="text-primary text-uppercase" style="color: white;"> Impact</span></h1>
+                    <p class="image-description" style="color: white;">Over the past 90 years, RTV has made significant strides in both growing our operations and impacting our community. We have mobilized over 713 volunteers who have been instrumental in our growth and reach. Generous donations have accumulated to more than $9 million, supporting our mission and various initiatives. Our presence on social media has attracted over 540,000 supporters, enhancing our engagement and outreach. Most importantly, our efforts have directly impacted the lives of more than 487 individuals, driving positive change and providing substantial aid across Lebanon.
+                    </p>
+                    
+                </div>
+    
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="counter-item text-center border p-5">
+                            <i class="fas fa-thumbs-up fa-4x text-white" style="color: #B62B24;"></i>
+                            <h3 class="text-white my-2">Social Supporters</h3>
+                            <div class="counter-counting">
+                                <span class="text-primary fs-2 fw-bold" id="counter1" style="color:  #ffffff;">540,000</span>
+                                <span class="h1 fw-bold text-primary" style="color: #B62B24;">+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="counter-item text-center border p-5">
+                            <i class="fas fa-file-invoice-dollar fa-4x text-white"></i>
+                            <h3 class="text-white my-2"> Fundraising Donations</h3>
+                            <div class="counter-counting text-center border-white w-100" style=" font-size: 30px;">
+                                <span class="text-primary fs-2 fw-bold" data-toggle="counter-up" style="color:  #ffffff;">9.M</span>
+                                <span class="h1 fw-bold text-primary" style="color: #B62B24;">$</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="counter-item text-center border p-5">
+                            <i class="fas fa-user fa-4x text-white"></i>
+                            <h3 class="text-white my-4">Volunteers</h3>
+                            <div class="counter-counting text-center border-white w-100" style=" font-size: 30px;">
+                                <span class="text-primary fs-2 fw-bold" data-toggle="counter-up" style="color:  #ffffff;">713</span>
+                                <span class="h1 fw-bold text-primary" style="color: #B62B24;">+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="counter-item text-center border p-5">
+                            <i class="fas fa-heart fa-4x text-white"></i>
+                            <h3 class="text-white my-4">Impacts</h3>
+                            <div class="counter-counting text-center border-white w-100" style=" font-size: 30px;">
+                                <span class="text-primary fs-2 fw-bold" data-toggle="counter-up" style="color:  #ffffff;">487</span>
+                                <span class="h1 fw-bold text-primary" style="color: #B62B24;">+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="img/error page.gif">Find Out More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Counter End -->
+
+         <!-- Newsletter Start -->
+         <div class="container newsletter mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="bg-transparent rounded text-center p-5">
+                        <!-- Your content here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!-- Causes Start -->
+         <div class="container-fluid causes py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5" style="max-width: 800px;">
+                    <h6 class="section-title text-center text-primary text-uppercase">Charity</h6>
+                    <h1 class="mb-5">Helping People and Our Government Make Lebanon a <span class="text-primary text-uppercase">Better Place</span></h1>
+                    <p class="image-description">At RTV, we are honored to proclaim our status as the foremost impartial news channel in the Middle East—a testament to our enduring ethos of balanced reporting. 
+                        This commitment is mirrored in Lebanon's unique heritage, a nation united under a singular religious and political identity spanning from 1861 to 2024, reflecting our shared vision of 
+                        harmony and solidarity.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6 col-xl-3">
+                        <div class="causes-item">
+                            <div class="causes-img">
+                                <img src="img/causes-4.jpg" class="img-fluid w-100" alt="Image">
+                                <div class="causes-link pb-2 px-3">
+                                    <small class="text-white"><i class="fas fa-chart-bar text-primary me-2"></i>Goal: $5000</small>
+                                    <small class="text-white"><i class="fa fa-thumbs-up text-primary me-2"></i>Raised: $2100</small>
+                                </div>
+                                <div class="causes-dination p-2">
+                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-3" href="img/error page.gif">Donate Now</a>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                                    <span>65%</span>
+                                </div>
+                            </div>
+                            <div class="causes-content p-4">
+                                <h4 class="mb-3">Aid Palestinian Refugees in Lebanon</h4>
+                                <p class="mb-4">Contribute to improving living conditions for Palestinian refugees housed in Lebanon's camps. Your donations help provide essential services and infrastructure, enhancing the quality of life and offering hope to those in need.</p>
+                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="img/error page.gif">Learn More</a>                                    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3">
+                        <div class="causes-item">
+                            <div class="causes-img">
+                                <img src="img/causes-2.jpg" class="img-fluid w-100" alt="Image">
+                                <div class="causes-link pb-2 px-3">
+                                    <small class="text-white"><i class="fas fa-chart-bar text-primary me-2"></i>Goal: $750,000</small>
+                                    <small class="text-white"><i class="fa fa-thumbs-up text-primary me-2"></i>Raised: $620,000</small>
+                                </div>
+                                <div class="causes-dination p-2">
+                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-3" href="img/error page.gif">Donate Now</a>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                            <div class="causes-content p-4">
+                                <h4 class="mb-3">Strengthen Israel's Defense Capabilities</h4>
+                                <p class="mb-4">Help bolster the defense mechanisms of Israel. Due to funding shortages, Israel’s military requires your support to maintain security and defense capabilities. Your contributions ensure that they are better equipped to protect their nation.</p>
+                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="img/error page.gif">Learn More</a>                                    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3">
+                        <div class="causes-item">
+                            <div class="causes-img">
+                                <img src="img/causes-3.jpg" class="img-fluid w-100" alt="Image">
+                                <div class="causes-link pb-2 px-3">
+                                    <small class="text-white"><i class="fas fa-chart-bar text-primary me-2"></i>Goal: $250,000</small>
+                                    <small class="text-white"><i class="fa fa-thumbs-up text-primary me-2"></i>Raised: $97,000</small>
+                                </div>
+                                <div class="causes-dination p-2">
+                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-3" href="img/error page.gif">Donate Now</a>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                            <div class="causes-content p-4">
+                                <h4 class="mb-3">Clean Water Initiatives</h4>
+                                <p class="mb-4">Support our government-led initiative to provide clean and safe drinking water to Lebanese civilians. Your donations fund the development and maintenance of water systems, ensuring sustainable access to this vital resource.
+                                </p>
+                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="img/error page.gif">Learn More</a>                                    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3">
+                        <div class="causes-item">
+                            <div class="causes-img">
+                                <img src="img/causes-1.jpg" class="img-fluid w-100" alt="Image">
+                                <div class="causes-link pb-2 px-3">
+                                    <small class="text-white"><i class="fas fa-chart-bar text-primary me-2"></i>Goal: $874,000</small>
+                                    <small class="text-white"><i class="fa fa-thumbs-up text-primary me-2"></i>Raised: $730,000</small>
+                                </div>
+                                <div class="causes-dination p-2">
+                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-3" href="img/error page.gif">Donate Now</a>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                            <div class="causes-content p-4">
+                                <h4 class="mb-3">GreenLeb Movement</h4>
+                                <p class="mb-4">Join our GreenLeb movement to combat pollution across Lebanon. Contributions support efforts to clean and preserve Lebanon’s rivers, seas, and lands, promoting environmental health and biodiversity.
+                                </p>
+                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="img/error page.gif">Learn More</a>                                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Causes End -->
+
+        
+
+        <!-- Testimonial Start -->
+        
+        <div class="container-xxl testimonial mt-5 py-5 bg-dark wow zoomIn" data-wow-delay="0.1s" style="margin-bottom: 90px;">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5" style="max-width: 800px;">
+                    <h6 class="section-title text-center text-primary text-uppercase" style="color: #ffffff;">Exclusive</h6>
+                    <h1 class="mb-5" style="color: #ffffff;">Our Political Quotes of <span class="text-primary text-uppercase" style="color: #ffffff;" >the Month</span></h1>
+                    <p class="image-description" style="color: #ffffff;">At RTV, we maintain strong relationships with Lebanon's political leaders, which positions us uniquely to receive and share insightful quotes directly from them. Each month, we feature significant statements that reflect their positions and ideas, showcasing their impact on Lebanon and the broader political landscape. This trusted access allows us to bring you exclusive perspectives that influence and inform national discourse.
+                    </p>
+                </div>
+            <div class="container">
+                <div class="owl-carousel testimonial-carousel py-5">
+                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                        <p>I am proud to announce that I have taken 0$ from 398.7M in any donation given to us from other countries and spent it all to the betterment of our country.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-1.jpg" style="width: 45px; height: 45px;">
+                            <div class="ps-3">
+                                <h6 class="fw-bold mb-1">Najib Mikati</h6>
+                                <small>Prime Minister</small>
+                            </div>
+                        </div>
+                        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                    </div>
+                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                        <p>I proudly declare that the Amal Movement stands as the highest-paid movement in terms of military support, dwarfing other countries where soldiers muster enthusiasm for a mere $80 a month.
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 45px; height: 45px;">
+                            <div class="ps-3">
+                                <h6 class="fw-bold mb-1">Nabih Berri</h6>
+                                <small>Speaker of the Parliament</small>
+                            </div>
+                        </div>
+                        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                    </div>
+                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                        <p>My efforts in the ministry in this country had made the Lebanese Lira the highest currency in the world. 1 Lebanese Lira is 130,000 US dollars.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-3.jpg" style="width: 45px; height: 45px;">
+                            <div class="ps-3">
+                                <h6 class="fw-bold mb-1">Gebran Bassil</h6>
+                                <small>Foreign Minister</small>
+                            </div>
+                        </div>
+                        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Testimonial End -->
+
+        
+        
+
+        <!-- Footer Start -->
+<div class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s">
+    <div class="container pb-5">
+        <div class="row g-5 justify-content-center">
+            <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center">
+                <div class="bg-light-footer rounded p-4 d-flex align-items-center justify-content-center">
+                    <a href="img/error page.gif">
+                        <img src="img/rtv.png" alt="RTV Logo" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center flex-column">
+                <h6 class="text-primary text-uppercase mb-4">Contact</h6>
+                <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, Beirut, Lebanon</p>
+                <p><i class="fa fa-phone-alt me-3"></i>Budget Cut, No Call Center</p>
+                <p><i class="fa fa-envelope me-3"></i>missinfo@rtv.com</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center flex-column">
+                <h6 class="text-primary text-uppercase mb-4">Stay Connected</h6>
+                <div class="social-links">
+                    <a href="img/error page.gif" style="color: white;"><i class="fab fa-facebook-f"></i></a>
+                    <a href="img/error page.gif" style="color: white;"><i class="fab fa-twitter"></i></a>
+                    <a href="img/error page.gif" style="color: white;"><i class="fab fa-instagram"></i></a>
+                    <a href="img/error page.gif" style="color: white;"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="newsletter mt-4 w-100 text-center">
+                    <input type="email" class="form-control email-input" placeholder="Enter your email">
+                    <button class="btn btn-primary mt-2" onclick="location.href='img/error page.gif'">Subscribe</button>
+                </div>                               
+            </div>
+        </div>
+    </div>
+    <div class="container text-center mt-5">
+        <div class="row">
+            <div class="col-12">
+                <p>&copy; <a href="img/error page.gif" style="color: white;">RTV.com</a>, All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!--  Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
