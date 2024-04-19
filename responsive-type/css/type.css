@@ -1,0 +1,14 @@
+/* source: https://matthewjamestaylor.com/responsive-font-size */
+
+html {
+    font-size: calc(17px + 0.390625vw);
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 70%;
+}
+h2 {
+    font-size: 1.5rem;
+}
+

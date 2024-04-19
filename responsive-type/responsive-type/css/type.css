@@ -1,0 +1,18 @@
+/* source: https://matthewjamestaylor.com/responsive-font-size */
+
+html {
+    font-size: calc(17px + 0.390625vw);
+}
+
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 23m;
+}
+
+p { 
+    font-size: 1.2m;
+}
